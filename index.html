@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Souparna Biswas | Policy Researcher</title>
+<meta name="description" content="Portfolio of Souparna Biswas, a policy researcher working on digital governance, AI policy, impact assessment and technology policy in India.">
+<meta property="og:title" content="Souparna Biswas | Policy Researcher">
+<meta property="og:description" content="Impact assessment, e-governance, AI policy and technology policy research in India.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230D6B66'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='700' font-size='34' text-anchor='middle' fill='white'%3ESB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" id="brand" href="#top">Souparna Biswas</a>
+    <div class="links">
+      <a href="#work">Work</a>
+      <a class="opt" href="#focus">Focus</a>
+      <a class="opt" href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+      <button class="tbtn" id="theme" type="button" aria-label="Switch colour theme">Theme</button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+  <div class="hero">
+    <div class="mono" id="eyebrow"></div>
+    <h1 id="heroName">Souparna Biswas</h1>
+    <p class="sub">I research how <span class="cycle" id="cycle">digital public services</span> work for the people they are meant to serve.</p>
+    <p class="lede" id="lede"></p>
+    <div class="cta">
+      <a class="btn primary" href="#work">See my work</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="strip" id="strip"></div>
+
+  <section id="work" aria-labelledby="work-h">
+    <h2 id="work-h">Selected work</h2>
+    <p class="sec-note">Filter by theme, then open any project to read it as a short brief.</p>
+    <div class="filters" id="filters" role="group" aria-label="Filter work by theme"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="focus" aria-labelledby="focus-h">
+    <h2 id="focus-h">What I work on</h2>
+    <p class="sec-note">Tap a theme to see the projects behind it.</p>
+    <div class="focus" id="focusGrid"></div>
+    <ul class="methods" id="methods" aria-label="Methods"></ul>
+  </section>
+
+  <section id="journey" aria-labelledby="journey-h">
+    <h2 id="journey-h">Where I have worked and learned</h2>
+    <p class="sec-note">Four institutions, each with a different view of how policy is made and delivered.</p>
+    <div class="places" id="places"></div>
+    <ul class="events" id="events"></ul>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <div class="contact">
+      <h2 id="contact-h">Let&rsquo;s talk policy.</h2>
+      <p>If you work on digital governance, technology policy, impact assessment or sustainability, I would like to hear from you.</p>
+      <p class="row" id="contactRow"></p>
+    </div>
+  </section>
+
+  <footer><span>&copy; <span id="year"></span> Souparna Biswas</span><span>Policy researcher</span></footer>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<aside class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="pTitle" aria-hidden="true">
+  <div class="top"><span class="mono" id="pCount"></span><button class="xbtn" id="pClose" type="button">Close</button></div>
+  <div class="scroll" id="pBody"></div>
+  <div class="nav2"><button class="xbtn" id="pPrev" type="button">Previous</button><button class="xbtn" id="pNext" type="button">Next</button></div>
+</aside>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
