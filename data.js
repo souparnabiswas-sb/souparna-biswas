@@ -18,11 +18,10 @@ var SITE = {
   lede: 'Master’s in Public Administration and Policy Studies from Central University of Kerala. Policy research and impact assessment at IIM Kozhikode, IIPA and ISB, now at XLRI, and studying technology policy at the Takshashila Institution.',
   strip: [
     { k: 'Now', v: 'Academic Associate, XLRI' },
-    { k: 'Also', v: 'Reviving the Centre for Sustainability, XLRI' },
+    { k: 'Also', v: 'Assisting the Centre for Sustainability, XLRI' },
     { k: 'Studying', v: 'Graduate Certificate in Public Policy (Technology Policy), Takshashila Institution' },
-    { k: 'Largest study', v: '20 institutions across 20 states (NaMPET Phase III)' }
-  ],
-  methods: ['Surveys', 'Stakeholder interviews', 'Impact assessment', 'Policy analysis', 'Policy editing', 'Concept notes and briefs', 'Leading small research teams'],
+      ],
+  methods: ['Surveys', 'Stakeholder interviews', 'Monitoring & Evaluation', 'Policy analysis', 'Policy editing', 'Concept notes and briefs', 'Leading small research teams'],
   contact: {
     email: '',        // e.g. 'name@example.com'
     linkedin: '',     // e.g. 'https://www.linkedin.com/in/your-name'
