@@ -20,6 +20,7 @@ var SITE = {
     { k: 'Now', v: 'Academic Associate, XLRI' },
     { k: 'Also', v: 'Assisting the Centre for Sustainability, XLRI' },
     { k: 'Studying', v: 'Graduate Certificate in Public Policy (Technology Policy), Takshashila Institution' },
+    { k: 'Expertise', v: 'Tech Policy, E-Governance, Sustainability & Climate Change, Migration, Urban-Governance' },
       ],
   methods: ['Surveys', 'Stakeholder interviews', 'Monitoring & Evaluation', 'Policy analysis', 'Policy editing', 'Concept notes and briefs', 'Leading small research teams'],
   contact: {
